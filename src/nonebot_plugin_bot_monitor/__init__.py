@@ -32,7 +32,7 @@ __plugin_meta__ = PluginMetadata(
         " - 测试邮件发送功能（仅超级用户）"
     ),
     type="application",
-    homepage="https://github.com/TogetsuDo/nonebot-plugin-bot-status",
+    homepage="https://github.com/TogetsuDo/nonebot-plugin-bot-monitor",
     config=plugin_config.__class__,
     supported_adapters={"~onebot.v11"},
     extra={
