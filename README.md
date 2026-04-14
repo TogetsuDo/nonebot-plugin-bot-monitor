@@ -112,6 +112,12 @@ BOT_monitor_CMD_TEST_MAIL=测试邮件
 
 ## 🎉 使用
 
+> **无需任何插件配置即可使用 `Bot在吗` 命令**，只需在 `.env` 中设置 NoneBot2 的超级用户：
+> ```dotenv
+> SUPERUSERS=["你的QQ号"]
+> ```
+> 邮件通知功能才需要额外配置 `BOT_monitor_SMTP_*` 相关项。
+
 以下命令仅 `SUPERUSERS` 可用：
 
 | 指令 | 权限 | 需要@ | 范围 | 说明 |
