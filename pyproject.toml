@@ -1,6 +1,6 @@
 [project]
 name = "nonebot-plugin-bot-monitor"
-version = "1.0.2"
+version = "1.0.3"
 description = "NoneBot2 插件：监控 Bot 在线状态，检测 Bot 离线并发送邮件通知"
 readme = "README.md"
 requires-python = ">=3.12"
@@ -50,7 +50,7 @@ build-backend = "uv_build"
 
 
 [tool.bumpversion]
-current_version = "1.0.2"
+current_version = "1.0.3"
 commit = true
 message = "chore(release): v{new_version}"
 tag = true
